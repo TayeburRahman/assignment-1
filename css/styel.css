@@ -13,7 +13,7 @@ body{
     width: 50%;
     margin: 120px 0px 0px 200px;
 }
-.slader_text h1{
+.slader_text h1 {
     color:#404040;
     font-size:55px;
 }
@@ -39,12 +39,8 @@ body{
     background-image:linear-gradient(to top right, #ff9966 67%, #ff6600 100%);
     padding: 15px  35px;
     border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
 }
-/*end slader part*/
+/*close slader part*/
 /*start 2nd part*/
 .about_me {
     height:650px;
@@ -61,49 +57,60 @@ body{
     font-size: 35px;
     margin-top: 120px;
 }
-/*end 2nd part*/
+/*close 2nd part*/
 /*start 3rd part*/
 .menu_item {
     display: flex;
 }
 .recipies{
-    margin-top: 100px;
     text-align: center;
+    padding: 100px 0px 0px 0px;
 }
 .recipies_text {
+    width: 40%;
+    margin: auto;
     color:#5F9EA0;
     font-size:40px;
 }
-#p-tag_3rd_part {
-    margin-left: 35%;
+#p_tag{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
 }
 .menu_item img{
     width: 100%;
 
 }
 .menu_item p {
-    width: 300px;
+    width: 250px;
 }
 .right_card{
     width: 20%;
+    height: 480px;
     border: 15px solid white;
     border-radius:15px;
-    margin: 50px 0px 0px 150px;
+    margin-left: auto;
+    margin-top: 50px;
     box-shadow: 0px 0px 20px -10px #606060;
 }
 .center_card {
     width: 20%;
+    height: 480px;
     border: 15px solid white;
     border-radius:15px;
-    margin: 50px 0px 0px 150px;
+    margin: 50px 150px 50px 150px;
     box-shadow: 0px 0px 20px -10px #606060;
 
 }
 .left_card {
     width: 20%;
+    height: 480px;
     border: 15px solid white;
     border-radius:15px;
-    margin: 50px 0px 0px 150px;
+    margin-right: auto;
+    margin-top: 50px;
     box-shadow: 0px 0px 20px -10px #606060;
 }
 
@@ -123,29 +130,23 @@ body{
     height: 240px;
     margin: auto;
     box-shadow: 0px 0px 20px -10px #606060;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
 }
 .subscribers {
     width: 20%;
     margin: auto;
     text-align: center;
-
 }
 .followers {
     width: 20%;
     margin: auto;
     text-align: center;
-
 }
 .likes {
     width: 20%;
     margin: auto;
-    text-align: center;
-    
+    text-align: center;  
 }
+/*close 3rd part*/
 /*start footer part*/
 .footer_section {
     margin: auto;
@@ -164,3 +165,4 @@ body{
     color: #C0C0C0;
     
 }
+/*close footer part*/
