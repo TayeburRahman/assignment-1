@@ -88,7 +88,7 @@ body{
 }
 .right_card{
     width: 20%;
-    height: 480px;
+    height: 450px;
     border: 15px solid white;
     border-radius:15px;
     margin-left: auto;
@@ -97,7 +97,7 @@ body{
 }
 .center_card {
     width: 20%;
-    height: 480px;
+    height: 450px;
     border: 15px solid white;
     border-radius:15px;
     margin: 50px 150px 50px 150px;
@@ -106,7 +106,7 @@ body{
 }
 .left_card {
     width: 20%;
-    height: 480px;
+    height: 450px;
     border: 15px solid white;
     border-radius:15px;
     margin-right: auto;
